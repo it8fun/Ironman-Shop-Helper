@@ -1,13 +1,13 @@
-package com.example;
+package com.IronmanShopHelper;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class IronmanShopHelperPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(IronmanShopHelperPlugin.class);
 		RuneLite.main(args);
 	}
 }
